@@ -35,7 +35,7 @@ Lorem ipsum
 4. List the contents of the `Coop` folder.
 5. "Move" into the `Chickens` folder.
 6. List out the chickens in the `Chickens` folder.  How many are there?
-7. One of the chickens is very, very old; which one is it? (Which file in the `Chickens` folder has the oldest modification time?) Use a command to figure it out!
+7. One of the chickens is younger than the others; which one is it? (Which file in the `Chickens` folder has the most recent modification time?) Use a command to figure it out!
 8. In a **single** command, move from the `Chickens` directory to the `Geese` directory.  Consult the folder structure written out above if needed.
 9. How many geese (files) are in the `Geese` directory?
 10. One of the geese is sitting on a golden egg!  It's larger than the other geese. Which one is it?  (Which file in the `Geese` folder is the largest?)  Use a command to figure it out!
@@ -46,6 +46,7 @@ Lorem ipsum
 
 <h2>What I Did</h2>
 
+**1. Open a new terminal window. Navigate to the `Farm` folder.**
 <p>
 <img src="https://i.imgur.com/r6iMPpB.png" height="100%" width="100%"/>
 </p>
@@ -55,6 +56,7 @@ Lorem ipsum
 <br />
 <br />
 
+**2. List the contents of the `Farm` directory.**
 <p>
 <img src="https://i.imgur.com/n1Grcfc.png" height="100%" width="100%"/>
 </p>
@@ -64,6 +66,7 @@ Lorem ipsum
 <br />
 <br />
 
+**3. "Move" into the `Coop` folder.**
 <p>
 <img src="https://i.imgur.com/8QsNXUc.png" height="100%" width="100%"/>
 </p>
@@ -73,6 +76,7 @@ Lorem ipsum
 <br />
 <br />
 
+**4. List the contents of the `Coop` folder.**
 <p>
 <img src="https://i.imgur.com/B1B3KFa.png" height="100%" width="100%"/>
 </p>
@@ -82,6 +86,7 @@ Lorem ipsum
 <br />
 <br />
 
+**5. "Move" into the `Chickens` folder.**
 <p>
 <img src="https://i.imgur.com/BEpPC58.png" height="100%" width="100%"/>
 </p>
@@ -91,6 +96,7 @@ Lorem ipsum
 <br />
 <br />
 
+**6. List out the chickens in the `Chickens` folder.  How many are there?**
 <p>
 <img src="https://i.imgur.com/Moayx5T.png" height="100%" width="100%"/>
 </p>
@@ -100,17 +106,9 @@ Lorem ipsum
 <br />
 <br />
 
+**7. One of the chickens is younger than the others; which one is it? (Which file in the `Chickens` folder has the most recent modification time?) Use a command to figure it out!**
 <p>
 <img src="https://i.imgur.com/A8XqUYP.png" height="100%" width="100%"/>
-</p>
-<p>
-Lorem ipsum
-</p>
-<br />
-<br />
-
-<p>
-<img src="https://i.imgur.com/SK4JZwV.png" height="100%" width="100%"/>
 </p>
 <p>
 Lorem ipsum
