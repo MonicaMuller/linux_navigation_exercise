@@ -2,8 +2,8 @@
 <img src="https://i.imgur.com/p7eKHoq.png" height="40%" width="60%" alt="Linux"/>
 </p>
 <h1>Linux Navigation Exercise</h1>
-Lorem ipsum<br />
-
+Lorem ipsum
+<br />
 
 <h2>The Commands</h2>
 
