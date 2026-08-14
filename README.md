@@ -60,9 +60,9 @@ To get started, I opened the terminal using the `Ctrl+Alt+T` keyboard shortcut. 
 <p>
 <img src="https://i.imgur.com/n1Grcfc.png" height="100%" width="100%"/>
 </p>
-<p>
-Lorem ipsum
-</p>
+
+In the previous step, I confirmed that I was in the `Farm` directory by using the `pwd` command. To list the contents of the directory I was currently in, I used the `ls` command and confirmed that the `Farm` directory contained two folders: `Coop` and `Stable`.
+
 <br />
 <br />
 
