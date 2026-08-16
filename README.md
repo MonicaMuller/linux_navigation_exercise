@@ -70,9 +70,9 @@ In the previous step, I confirmed that I was in the `Farm` directory by using th
 <p>
 <img src="https://i.imgur.com/8QsNXUc.png" height="100%" width="100%"/>
 </p>
-<p>
-Lorem ipsum
-</p>
+
+To move into the `Coop` folder, I used the `cd` command, then confirmed that I was in the folder using the `pwd` command.
+
 <br />
 <br />
 
