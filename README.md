@@ -100,9 +100,9 @@ I moved into the `Chickens` folder using the `cd` command, then used the `pwd` c
 <p>
 <img src="https://i.imgur.com/Moayx5T.png" height="100%" width="100%"/>
 </p>
-<p>
+
 Lorem ipsum
-</p>
+
 <br />
 <br />
 
@@ -110,90 +110,90 @@ Lorem ipsum
 <p>
 <img src="https://i.imgur.com/A8XqUYP.png" height="100%" width="100%"/>
 </p>
-<p>
+
 Lorem ipsum
-</p>
+
 <br />
 <br />
 
 <p>
 <img src="https://i.imgur.com/n9cgpJN.png" height="100%" width="100%"/>
 </p>
-<p>
+
 Lorem ipsum
-</p>
+
 <br />
 <br />
 
 <p>
 <img src="https://i.imgur.com/BliOXtf.png" height="100%" width="100%"/>
 </p>
-<p>
+
 Lorem ipsum
-</p>
+
 <br />
 <br />
 
 <p>
 <img src="https://i.imgur.com/LFYJaNf.png" height="100%" width="100%"/>
 </p>
-<p>
+
 Lorem ipsum
-</p>
+
 <br />
 <br />
 
 <p>
 <img src="https://i.imgur.com/scbZcmf.png" height="100%" width="100%"/>
 </p>
-<p>
+
 Lorem ipsum
-</p>
+
 <br />
 <br />
 
 <p>
 <img src="https://i.imgur.com/5FVjOdH.png" height="100%" width="100%"/>
 </p>
-<p>
+
 Lorem ipsum
-</p>
+
 <br />
 <br />
 
 <p>
 <img src="https://i.imgur.com/muklrV9.png" height="100%" width="100%"/>
 </p>
-<p>
+
 Lorem ipsum
-</p>
+
 <br />
 <br />
 
 <p>
 <img src="https://i.imgur.com/jlFiRWA.png" height="100%" width="100%"/>
 </p>
-<p>
+
 Lorem ipsum
-</p>
+
 <br />
 <br />
 
 <p>
 <img src="https://i.imgur.com/MYXR1vM.png" height="100%" width="100%"/>
 </p>
-<p>
+
 Lorem ipsum
-</p>
+
 <br />
 <br />
 
 <p>
 <img src="https://i.imgur.com/Bj79qN5.png" height="100%" width="100%"/>
 </p>
-<p>
+
 Lorem ipsum
-</p>
+
 <br />
 <br />
 
