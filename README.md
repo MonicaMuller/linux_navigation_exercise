@@ -51,7 +51,7 @@ Lorem ipsum
 <img src="https://i.imgur.com/r6iMPpB.png" height="100%" width="100%"/>
 </p>
 
-To get started, I opened the terminal using the `Ctrl+Alt+T` keyboard shortcut. To determine what directory I was currently in, I used the `pwd` command, which stands for "print working directory"; I found that I was in my home folder. I then used the `ls` command to see the files and folders in my home folder. Knowing that the `Farm` folder was on my Desktop, I used the `cd` command to navigate into my Desktop folder, the `ls` command to see what was in the folder, the `cd` command to go into the `Farm` folder, and lastly, the `pwd` command to confirm that I was in the `Farm` folder.
+To get started, I opened the terminal using the `Ctrl+Alt+T` keyboard shortcut. To determine what directory I was currently in, I used the `pwd` command, which stands for "print working directory"; I found that I was in my home folder. I then used the `ls` command to see the files and folders in my home folder. Knowing that the `Farm` folder was on my Desktop, I used the `cd` command to navigate into my Desktop folder, the `ls` command to see what was in the folder, the `cd` command to go into the `Farm` folder, and lastly, the `pwd` command to confirm that I was in the `Farm` folder. (I am aware that my current working directory of `~/Desktop/Farm` does the same as the `pwd` command, but I want to get into the habit of using it and typing in the terminal)
 
 <br />
 <br />
