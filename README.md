@@ -90,9 +90,9 @@ I listed the contents of the `Coop` folder using the `ls` command and determined
 <p>
 <img src="https://i.imgur.com/BEpPC58.png" height="100%" width="100%"/>
 </p>
-<p>
-Lorem ipsum
-</p>
+
+I moved into the `Chickens` folder using the `cd` command, then used the `pwd` command to verify that I was in the `Chickens` folder.
+
 <br />
 <br />
 
