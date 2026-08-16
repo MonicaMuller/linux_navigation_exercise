@@ -80,9 +80,9 @@ To move into the `Coop` folder, I used the `cd` command, then confirmed that I w
 <p>
 <img src="https://i.imgur.com/B1B3KFa.png" height="100%" width="100%"/>
 </p>
-<p>
-Lorem ipsum
-</p>
+
+I listed the contents of the `Coop` folder using the `ls` command and determined that the `Coop` folder contained two folders: `Chickens` and `Geese`.
+
 <br />
 <br />
 
