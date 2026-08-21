@@ -121,7 +121,7 @@ To determine which of the chickens was younger than the others, I used the `ls -
 <img src="https://i.imgur.com/n9cgpJN.png" height="100%" width="100%"/>
 </p>
 
-Lorem ipsum
+I decided to navigate into the `Geese` directory using two different ways: an <ins>absolute path</ins> and a <ins>relative path</ins>. To summarize, a relative path is a path that only works relative to your current directory, while an absolute path works regardless of what your current directory is. I started with an absolute path by using the command `cd ~/Desktop/Farm/Coop/Geese`, then navigated back to the `Chickens` folder and then back again to the `Geese` folder using relative paths; the `cd ../Geese` command took me up one folder to the `Coop` directory and then down into the `Geese` folder.
 
 <br />
 <br />
