@@ -141,7 +141,7 @@ Similar to Step 6, I used the `ls` command and counted 4 geese in the `Geese` di
 <img src="https://i.imgur.com/LFYJaNf.png" height="100%" width="100%"/>
 </p>
 
-Lorem ipsum
+Using the `ls -l` command like earlier, I could view more details about the files in the directory. The column to the left of the one showing the month (Aug) shows the size of the file in bytes. The Amelia, Boris, and Lucy files have a size of 0 bytes (they are empty), and the Muffin file has a size of 15 bytes; this means the Muffin is sitting on the golden egg/is the largest file.
 
 <br />
 <br />
