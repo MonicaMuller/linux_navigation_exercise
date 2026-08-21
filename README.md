@@ -126,15 +126,17 @@ I decided to navigate into the `Geese` directory using two different ways: an <i
 <br />
 <br />
 
+**9. How many geese (files) are in the `Geese` directory?**
 <p>
 <img src="https://i.imgur.com/BliOXtf.png" height="100%" width="100%"/>
 </p>
 
-Lorem ipsum
+Similar to Step 6, I used the `ls` command and counted 4 geese in the `Geese` directory: Amelia, Boris, Lucy, and Muffin.
 
 <br />
 <br />
 
+**10. One of the geese is sitting on a golden egg! It's larger than the other geese. Which one is it? (Which file in the `Geese` folder is the largest?) Use a command to figure it out!**
 <p>
 <img src="https://i.imgur.com/LFYJaNf.png" height="100%" width="100%"/>
 </p>
@@ -144,6 +146,7 @@ Lorem ipsum
 <br />
 <br />
 
+**11. Navigate to the `Horses` directory. Consult the folder structure written out above, if needed.**
 <p>
 <img src="https://i.imgur.com/scbZcmf.png" height="100%" width="100%"/>
 </p>
@@ -153,6 +156,7 @@ Lorem ipsum
 <br />
 <br />
 
+**12. How many horses are in the `Horses` directory?**
 <p>
 <img src="https://i.imgur.com/5FVjOdH.png" height="100%" width="100%"/>
 </p>
@@ -162,6 +166,7 @@ Lorem ipsum
 <br />
 <br />
 
+**13. Wait! There is a hidden horse in the `Horses` directory! What is its name?**
 <p>
 <img src="https://i.imgur.com/muklrV9.png" height="100%" width="100%"/>
 </p>
@@ -171,6 +176,7 @@ Lorem ipsum
 <br />
 <br />
 
+**14. Bonus: List out the contents of the Horses directory as a comma-separated list. You'll need to dig into the man pages to find the correct option. Perhaps search the ls man page for "comma"?**
 <p>
 <img src="https://i.imgur.com/jlFiRWA.png" height="100%" width="100%"/>
 </p>
