@@ -101,7 +101,7 @@ I moved into the `Chickens` folder using the `cd` command, then used the `pwd` c
 <img src="https://i.imgur.com/Moayx5T.png" height="100%" width="100%"/>
 </p>
 
-Lorem ipsum
+Once I was in the chicken folder, I used the `ls` command to list out the chickens in the `Chickens` folder. I counted that there were 6 chickens present: Buckbeak, Elvis, Ethel, Frida, Hippo, and Jaba.
 
 <br />
 <br />
