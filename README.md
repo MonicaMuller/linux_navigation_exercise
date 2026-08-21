@@ -111,11 +111,12 @@ Once I was in the chicken folder, I used the `ls` command to list out the chicke
 <img src="https://i.imgur.com/A8XqUYP.png" height="100%" width="100%"/>
 </p>
 
-Lorem ipsum
+To determine which of the chickens was younger than the others, I used the `ls -l` command, since using the `-l` option displays more detail when listing the contents of a directory. In the second-to-last column, I saw that Buckbeak was younger than the others; Buckbeak had a modification time of 9:07 PM, and the other chickens had a modification time of 6:46 PM.
 
 <br />
 <br />
 
+**8. In a ***single*** command, move from the `Chickens` directory to the `Geese` directory. Consult the folder structure written out above if needed.**
 <p>
 <img src="https://i.imgur.com/n9cgpJN.png" height="100%" width="100%"/>
 </p>
