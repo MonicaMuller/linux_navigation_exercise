@@ -161,7 +161,7 @@ While I could have referred to the folder structure above, I wanted to try navig
 <img src="https://i.imgur.com/5FVjOdH.png" height="100%" width="100%"/>
 </p>
 
-Lorem ipsum
+Using the `ls` command, I determined that there were 4 horses present: Archer, Buttons, Cookie, and Jett.
 
 <br />
 <br />
