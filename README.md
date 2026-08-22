@@ -2,7 +2,10 @@
 <img src="https://i.imgur.com/p7eKHoq.png" height="40%" width="60%" alt="Linux"/>
 </p>
 <h1>Linux Navigation Exercise</h1>
-Lorem ipsum
+
+In this exercise, I used fundamental navigation commands in a Linux terminal to complete various tasks. 
+
+Credit to Colt Steele's Udemy course **The Linux Command Line Bootcamp: Beginner To Power User** for both the exercise and teaching me the knowledge to complete it!
 <br />
 
 <h2>The Commands</h2>
@@ -15,6 +18,8 @@ Lorem ipsum
   - ..
 - man
   - /
+  - n
+  - q
 
 <h2>The Exercise</h2>
 
@@ -181,7 +186,7 @@ To find the name of the hidden horse, I used the `ls -a` command; the `-a` optio
 <img src="https://i.imgur.com/jlFiRWA.png" height="100%" width="100%"/>
 </p>
 
-Lorem ipsum
+I used the `man` command (short for manual) to see what options I could use with the `ls` command to create a comma-separated list. Here's what I first saw when I entered the `man ls` command.
 
 <br />
 <br />
@@ -190,7 +195,7 @@ Lorem ipsum
 <img src="https://i.imgur.com/MYXR1vM.png" height="100%" width="100%"/>
 </p>
 
-Lorem ipsum
+Like the "Ctrl+F" keyboard shortcut, `/` can search for a specific string in a man page. Using `/comma` to search for every occurrence of the word "comma" and the `n` key to jump to each occurrence, I found that the `-m` option will separate the contents of a directory with commas.
 
 <br />
 <br />
@@ -199,12 +204,12 @@ Lorem ipsum
 <img src="https://i.imgur.com/Bj79qN5.png" height="100%" width="100%"/>
 </p>
 
-Lorem ipsum
+I returned to the terminal using the `q` key, then used the command `ls -m` to complete the bonus task.
 
 <br />
 <br />
 
 <p>
-✨ Lorem ipsum
+✨ It is so important to learn and become comfortable with the fundamentals of any technology that you are new to, and this exercise definitely helped me get used to navigating and using the man pages.
 </p>
 <br />
