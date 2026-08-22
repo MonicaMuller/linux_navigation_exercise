@@ -199,7 +199,7 @@ For the bonus task, I needed to find an `ls` option that would display the direc
 <img src="https://i.imgur.com/MYXR1vM.png" height="100%" width="100%"/>
 </p>
 
-Within a man page, `/` can be used to search for text. I searched for `/comma` and pressed `n` to move through matching results until I found the `-m` option, which formats entries as a comma-separated list.
+Within a man page, `/` can be used to search for text. I searched using `/comma` and pressed `n` to move through matching results until I found the `-m` option, which formats entries as a comma-separated list.
 
 <br />
 <br />
