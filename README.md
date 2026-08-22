@@ -171,7 +171,7 @@ Using the `ls` command, I determined that there were 4 horses present: Archer, B
 <img src="https://i.imgur.com/muklrV9.png" height="100%" width="100%"/>
 </p>
 
-Lorem ipsum
+To find the name of the hidden horse, I used the `ls -a` command; the `-a` option ensures that hidden files and directories will also be listed. Three new results appeared: `.`, `..`, and `.Troy`. `.` refers to the current directory, `..` refers to one directory above the current directory, and `.Troy` is the hidden horse (get it? Troy? hidden horse?).
 
 <br />
 <br />
