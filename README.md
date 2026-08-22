@@ -3,9 +3,9 @@
 </p>
 <h1>Linux Navigation Exercise</h1>
 
-In this exercise, I used fundamental navigation commands in a Linux terminal to complete various tasks. 
+In this exercise, I practiced fundamental Linux navigation commands by completing a series of terminal-based tasks. 
 
-Credit to Colt Steele's Udemy course **The Linux Command Line Bootcamp: Beginner To Power User** for both the exercise and teaching me the knowledge to complete it!
+Credit to Colt Steele’s Udemy course, **The Linux Command Line Bootcamp: Beginner to Power User**, for providing both the exercise and the foundational knowledge needed to complete it.
 <br />
 
 <h2>The Commands</h2>
@@ -56,7 +56,9 @@ Credit to Colt Steele's Udemy course **The Linux Command Line Bootcamp: Beginner
 <img src="https://i.imgur.com/r6iMPpB.png" height="100%" width="100%"/>
 </p>
 
-To get started, I opened the terminal using the `Ctrl+Alt+T` keyboard shortcut. To determine what directory I was currently in, I used the `pwd` command, which stands for "print working directory"; I found that I was in my home folder. I then used the `ls` command to see the files and folders in my home folder. Knowing that the `Farm` folder was on my Desktop, I used the `cd` command to navigate into my Desktop folder, the `ls` command to see what was in the folder, the `cd` command to go into the `Farm` folder, and lastly, the `pwd` command to confirm that I was in the `Farm` folder. (I am aware that my current working directory of `~/Desktop/Farm` does the same as the `pwd` command, but I want to get into the habit of using it and typing in the terminal)
+To get started, I opened the terminal using the `Ctrl+Alt+T` keyboard shortcut. I used `pwd` (“print working directory”) to determine my current location and confirmed that I was in my home directory. I then used `ls` to view its contents. Since the `Farm` folder was located on my Desktop, I navigated into the `Desktop` directory with `cd`, listed its contents with `ls`, and then used `cd` again to enter the `Farm` directory. Finally, I used `pwd` to confirm my current location.
+
+Although my shell prompt already displays `~/Desktop/Farm`, I intentionally used `pwd` so I could practice the command and build the habit of verifying my current working directory.
 
 <br />
 <br />
@@ -66,7 +68,7 @@ To get started, I opened the terminal using the `Ctrl+Alt+T` keyboard shortcut. 
 <img src="https://i.imgur.com/n1Grcfc.png" height="100%" width="100%"/>
 </p>
 
-In the previous step, I confirmed that I was in the `Farm` directory by using the `pwd` command. To list the contents of the directory I was currently in, I used the `ls` command and confirmed that the `Farm` directory contained two folders: `Coop` and `Stable`.
+After confirming that I was in the `Farm` directory, I used `ls` to list its contents. The directory contained two subdirectories: `Coop` and `Stable`.
 
 <br />
 <br />
@@ -76,7 +78,7 @@ In the previous step, I confirmed that I was in the `Farm` directory by using th
 <img src="https://i.imgur.com/8QsNXUc.png" height="100%" width="100%"/>
 </p>
 
-To move into the `Coop` folder, I used the `cd` command, then confirmed that I was in the folder using the `pwd` command.
+I used `cd Coop` to navigate into the `Coop` directory, then used `pwd` to verify my new working directory.
 
 <br />
 <br />
@@ -86,7 +88,7 @@ To move into the `Coop` folder, I used the `cd` command, then confirmed that I w
 <img src="https://i.imgur.com/B1B3KFa.png" height="100%" width="100%"/>
 </p>
 
-I listed the contents of the `Coop` folder using the `ls` command and determined that the `Coop` folder contained two folders: `Chickens` and `Geese`.
+I used `ls` to list the contents of the `Coop` directory and found two subdirectories: `Chickens` and `Geese`.
 
 <br />
 <br />
@@ -96,7 +98,7 @@ I listed the contents of the `Coop` folder using the `ls` command and determined
 <img src="https://i.imgur.com/BEpPC58.png" height="100%" width="100%"/>
 </p>
 
-I moved into the `Chickens` folder using the `cd` command, then used the `pwd` command to verify that I was in the `Chickens` folder.
+I used `cd Chickens` to navigate into the `Chickens` directory, then verified my location with `pwd`.
 
 <br />
 <br />
@@ -106,7 +108,7 @@ I moved into the `Chickens` folder using the `cd` command, then used the `pwd` c
 <img src="https://i.imgur.com/Moayx5T.png" height="100%" width="100%"/>
 </p>
 
-Once I was in the chicken folder, I used the `ls` command to list out the chickens in the `Chickens` folder. I counted that there were 6 chickens present: Buckbeak, Elvis, Ethel, Frida, Hippo, and Jaba.
+Once inside the `Chickens` directory, I used `ls` to list its contents. There were six chickens: Buckbeak, Elvis, Ethel, Frida, Hippo, and Jaba.
 
 <br />
 <br />
@@ -116,7 +118,7 @@ Once I was in the chicken folder, I used the `ls` command to list out the chicke
 <img src="https://i.imgur.com/A8XqUYP.png" height="100%" width="100%"/>
 </p>
 
-To determine which of the chickens was younger than the others, I used the `ls -l` command, since using the `-l` option displays more detail when listing the contents of a directory. In the second-to-last column, I saw that Buckbeak was younger than the others; Buckbeak had a modification time of 9:07 PM, and the other chickens had a modification time of 6:46 PM.
+To determine which chicken was the youngest (i.e., had the most recent modification time), I used `ls -l`, which displays a long listing containing details such as file permissions, ownership, size, and modification time. Comparing the modification times showed that `Buckbeak` was the most recently modified file: `Buckbeak` had a modification time of 9:07 PM, while the others showed 6:46 PM.
 
 <br />
 <br />
@@ -126,7 +128,9 @@ To determine which of the chickens was younger than the others, I used the `ls -
 <img src="https://i.imgur.com/n9cgpJN.png" height="100%" width="100%"/>
 </p>
 
-I decided to navigate into the `Geese` directory using two different ways: an <ins>absolute path</ins> and a <ins>relative path</ins>. To summarize, a relative path is a path that only works relative to your current directory, while an absolute path works regardless of what your current directory is. I started with an absolute path by using the command `cd ~/Desktop/Farm/Coop/Geese`, then navigated back to the `Chickens` folder and then back again to the `Geese` folder using relative paths; the `cd ../Geese` command took me up one folder to the `Coop` directory and then down into the `Geese` folder.
+I practiced both absolute and relative paths for this step. First, I used the absolute path `cd ~/Desktop/Farm/Coop/Geese`. I then returned to the `Chickens` directory and navigated back to `Geese` using the relative path `cd ../Geese`.
+
+An absolute path identifies a location from a fixed starting point, while a relative path describes a location in relation to the current working directory. In `cd ../Geese`, `..` moves up one level from `Chickens` to `Coop`, and `Geese` then moves down into the neighboring directory.
 
 <br />
 <br />
@@ -136,7 +140,7 @@ I decided to navigate into the `Geese` directory using two different ways: an <i
 <img src="https://i.imgur.com/BliOXtf.png" height="100%" width="100%"/>
 </p>
 
-Similar to Step 6, I used the `ls` command and counted 4 geese in the `Geese` directory: Amelia, Boris, Lucy, and Muffin.
+I used `ls` to list the contents of the `Geese` directory. There were four geese: Amelia, Boris, Lucy, and Muffin.
 
 <br />
 <br />
@@ -146,7 +150,7 @@ Similar to Step 6, I used the `ls` command and counted 4 geese in the `Geese` di
 <img src="https://i.imgur.com/LFYJaNf.png" height="100%" width="100%"/>
 </p>
 
-Using the `ls -l` command like earlier, I could view more details about the files in the directory. The column to the left of the one showing the month (Aug) shows the size of the file in bytes. The Amelia, Boris, and Lucy files have a size of 0 bytes (they are empty), and the Muffin file has a size of 15 bytes; this means the Muffin is sitting on the golden egg/is the largest file.
+I used `ls -l` to view detailed information about the files, including their sizes in bytes. Amelia, Boris, and Lucy were each 0 bytes, while Muffin was 15 bytes. Therefore, Muffin was the largest file (the goose sitting on the golden egg).
 
 <br />
 <br />
@@ -156,7 +160,7 @@ Using the `ls -l` command like earlier, I could view more details about the file
 <img src="https://i.imgur.com/scbZcmf.png" height="100%" width="100%"/>
 </p>
 
-While I could have referred to the folder structure above, I wanted to try navigating to the `Horses` directory without doing so. I used the `ls` command with absolute paths to get a layout of the folders in each directory and map out a path, then used the `cd` command with a relative path to navigate from the `Geese` directory to the `Horses` directory.
+Although I could have referred to the folder structure provided in the exercise, I wanted to determine the route myself. I used `ls` with directory paths to inspect the surrounding folder structure, then used a relative path with `cd` to navigate from `Geese` to `Horses`.
 
 <br />
 <br />
@@ -166,7 +170,7 @@ While I could have referred to the folder structure above, I wanted to try navig
 <img src="https://i.imgur.com/5FVjOdH.png" height="100%" width="100%"/>
 </p>
 
-Using the `ls` command, I determined that there were 4 horses present: Archer, Buttons, Cookie, and Jett.
+I used `ls` to list the visible contents of the `Horses` directory and found four horses: Archer, Buttons, Cookie, and Jett.
 
 <br />
 <br />
@@ -176,7 +180,7 @@ Using the `ls` command, I determined that there were 4 horses present: Archer, B
 <img src="https://i.imgur.com/muklrV9.png" height="100%" width="100%"/>
 </p>
 
-To find the name of the hidden horse, I used the `ls -a` command; the `-a` option ensures that hidden files and directories will also be listed. Three new results appeared: `.`, `..`, and `.Troy`. `.` refers to the current directory, `..` refers to one directory above the current directory, and `.Troy` is the hidden horse (get it? Troy? hidden horse?).
+To reveal hidden files and directories, I used `ls -a`. Three additional entries appeared: `.`, `..`, and `.Troy`. The `.` entry represents the current directory, while `..` represents its parent directory. Because Linux filenames beginning with `.` are hidden by default, `.Troy` was the hidden horse (get it? Troy? hidden horse?).
 
 <br />
 <br />
@@ -186,7 +190,7 @@ To find the name of the hidden horse, I used the `ls -a` command; the `-a` optio
 <img src="https://i.imgur.com/jlFiRWA.png" height="100%" width="100%"/>
 </p>
 
-I used the `man` command (short for manual) to see what options I could use with the `ls` command to create a comma-separated list. Here's what I first saw when I entered the `man ls` command.
+For the bonus task, I needed to find an `ls` option that would display the directory contents as a comma-separated list. Rather than searching online, I used `man ls` to consult the command’s manual page.
 
 <br />
 <br />
@@ -195,7 +199,7 @@ I used the `man` command (short for manual) to see what options I could use with
 <img src="https://i.imgur.com/MYXR1vM.png" height="100%" width="100%"/>
 </p>
 
-Like the "Ctrl+F" keyboard shortcut, `/` can search for a specific string in a man page. Using `/comma` to search for every occurrence of the word "comma" and the `n` key to jump to each occurrence, I found that the `-m` option will separate the contents of a directory with commas.
+Within a man page, `/` can be used to search for text. I searched for `/comma` and pressed `n` to move through matching results until I found the `-m` option, which formats entries as a comma-separated list.
 
 <br />
 <br />
@@ -204,12 +208,12 @@ Like the "Ctrl+F" keyboard shortcut, `/` can search for a specific string in a m
 <img src="https://i.imgur.com/Bj79qN5.png" height="100%" width="100%"/>
 </p>
 
-I returned to the terminal using the `q` key, then used the command `ls -m` to complete the bonus task.
+I pressed `q` to exit the man page and returned to the terminal, where I ran `ls -m` to complete the bonus task.
 
 <br />
 <br />
 
 <p>
-✨ It is so important to learn and become comfortable with the fundamentals of any technology that you are new to, and this exercise definitely helped me get used to navigating and using the man pages.
+✨ Building a strong foundation is important when learning any new technology. This exercise helped me become more comfortable navigating the Linux filesystem, working with relative and absolute paths, using command options, and consulting man pages when I need to find information on my own.
 </p>
 <br />
