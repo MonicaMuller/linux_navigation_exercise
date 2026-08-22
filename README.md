@@ -151,7 +151,7 @@ Using the `ls -l` command like earlier, I could view more details about the file
 <img src="https://i.imgur.com/scbZcmf.png" height="100%" width="100%"/>
 </p>
 
-Lorem ipsum
+While I could have referred to the folder structure above, I wanted to try navigating to the `Horses` directory without doing so. I used the `ls` command with absolute paths to get a layout of the folders in each directory and map out a path, then used the `cd` command with a relative path to navigate from the `Geese` directory to the `Horses` directory.
 
 <br />
 <br />
