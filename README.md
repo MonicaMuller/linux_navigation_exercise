@@ -1,7 +1,7 @@
 <p align="center">
 <img src="https://i.imgur.com/p7eKHoq.png" height="40%" width="60%" alt="Linux"/>
 </p>
-<h1>Linux Navigation Exercise</h1>
+<h1>Linux Exercise: Navigation</h1>
 
 In this exercise, I practiced fundamental Linux navigation commands by completing a series of terminal-based tasks. 
 
